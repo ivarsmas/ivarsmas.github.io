@@ -1,7 +1,70 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" /> 
+	<title>Ivars Mas Website</title>
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body id="body1">
+<h1>
+	Miguel Angel Ivars Mas <br>
+	<small>Entrepreneur, Internet enthusiast, passionate about innovation, communication & marketing.</small>
+</h1>
+<p>
+	Some of my photos:
+</p>
+<div id="instafeed"></div>
+<p>
+	Some links and other stuff:
+</p>
+<ul>
+	<li><a href="http://ivarsmas.wordpress.com">My Spanish Blog</li>
+	<li><a href="http://ivarsmore.wordpress.com">My English Blog</li>
+	<li><a href="http://ivarsmas.tumblr.com">My Tumblr</li>
+	<li><a href="http://medium.com/@ivarsmas">My Medium</li>
+	<li><a href="http://www.linkedin.com/in/ivarsmas">My Linkedin</li>
+	<li><a href="http://twitter.com/ivarsmas">My Twitter</li>
+	<li><a href="http://www.facebook.com/IvarsMasBlog">My Blog's Fan Facebook</li>
+	<li><a href="http://www.instagram.com/ivarsmas">My Instagram</li>
+	<li><a href="http://www.flickr.com/ivarsmas">My Flickr</li>
+</ul>
+<script src="assets/js/trianglify.min.js"></script>
+<script>
+	// set up the base pattern
+	var pattern = Trianglify({
+		height: window.innerHeight,
+		width: window.innerWidth,
+		cell_size: 30 + Math.random() * 100});
+
+	var body = document.getElementsByTagName('body')[0];
+		body.style.backgroundImage = 'url('+pattern.png()+')';
+</script>
+<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
+<script type="text/javascript">
+	// var feed = new Instafeed({
+	// 	get: 'tagged',
+	// 	tagName: 'awesome',
+	// 	clientId: 'b40c02f98ddc4b3b95bbcbe6409c49a3'
+	// });
+	// feed.run();
+	var feed = new Instafeed({
+		get: 'user',
+		userId: '213085725',
+		accessToken: '213085725.b40c02f.68899c53d1eb420c97fe5bb95a3ff0b3',
+		//clientId: 'b40c02f98ddc4b3b95bbcbe6409c49a3',
+		// filter: function(image) {
+		// 	return image.tags.indexOf('minimal') >= 0;
+		// }
+		links: true
+	});
+	feed.run();
+</script>
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script>
+	Smooch.init({appToken: '2qwbroetf35ml837bkgdoejvr' });
+</script>
 </body>
 </html>

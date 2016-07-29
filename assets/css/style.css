@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'Brandon';
+    src: url('../fonts/Brandon_light.oft');
+}
+
+html, body {
+	/**/margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+	/*font-size: 0;*/
+}
+
+h1{
+	font-family: Helvetica, Arial,'Brandon';
+	padding: 40px;
+}
+small{
+	font-size: 12px;
+	font-weight: normal;
+	font-color: #aaa;
+}
+
+p{
+	font-family: Helvetica, Arial,'Brandon';
+	background-color: #fff;
+	color: #aaa;
+	display: block;
+	padding: 30px;
+}
+
+li{
+	font-family: Helvetica, Arial,'Brandon';
+	list-style-type: none;
+	float: left;
+	padding-left: 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+	color: #222;
+	text-decoration: none;
+}
+
+#instafeed{
+	height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
