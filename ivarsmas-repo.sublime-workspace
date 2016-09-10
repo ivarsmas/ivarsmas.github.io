@@ -395,7 +395,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1759,
+				"buffer_size": 2311,
 				"line_ending": "Unix"
 			}
 		}
@@ -881,15 +881,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1759,
+						"buffer_size": 2311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								389,
+								389
 							]
 						],
 						"settings":
