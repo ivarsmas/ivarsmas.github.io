@@ -395,7 +395,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2311,
+				"buffer_size": 3631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 877,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/font-awesome/font-awesome.min.css",
+			"settings":
+			{
+				"buffer_size": 26807,
 				"line_ending": "Unix"
 			}
 		}
@@ -600,6 +616,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fa-4x",
+			"Brandon",
 			"hook",
 			"[$i]",
 			"courses_subjects",
@@ -725,9 +743,7 @@
 			"arbol.jpg",
 			"blank.gif",
 			"read-more_02.png",
-			"AcademyROVI.png",
-			"rovi.png",
-			"vusers_welcome"
+			"AcademyROVI.png"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -735,6 +751,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"fa-3x",
 			"[3]",
 			"[2]",
 			"[1]",
@@ -861,8 +878,7 @@
 			"$this->types",
 			"vdocuments_add",
 			"../../img/wow_book/",
-			"../../img/",
-			"documents"
+			"../../img/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -881,21 +897,74 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2311,
+						"buffer_size": 3631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								2378,
+								2378
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/font-awesome/font-awesome.min.css",
+					"settings":
+					{
+						"buffer_size": 26807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
