@@ -1,66 +1,167 @@
+@font-face {
+	font-family: 'rubikregular';
+	src: url('../fonts/rubik/rubik-medium-webfont.woff2') format('woff2'),
+		 url('../fonts/rubik/rubik-medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
-    font-family: Brandon;
-    src: url(../fonts/Brandon/Brandon_bld.otf);
+	font-family: 'latoregular';
+	src: url('../fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/lato/lato-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0 0;
+	padding: 0 0;
 }
 
 html, body {
-	/**/margin: 0 0;
+	margin: 0 0;
 	padding: 0 0;
-	text-align: center;
-	/*font-size: 0;*/
+	-webkit-font-smoothing: grayscale;
+	-moz-font-smoothing: grayscale;
+	-o-font-smoothing: grayscale;
+	box-sizing: border-box;
 }
 
-h1{
-	font-family: Brandon, Helvetica, Arial;
-	padding: 40px;
-}
-
-small{
-	font-size: 12px;
-	font-weight: normal;
-	color: #0f0f0f;
-}
-
-div{
-	font-family: Helvetica, Arial,'Brandon';
-	background-color: #fff;
-	color: #aaa;
-/*	display: block;*/
-	margin: -30px 0px 0px;
-	padding: 30px;
-}
-
-p{
-	font-family: Helvetica, Arial,'Brandon';
-	background-color: #fff;
-	color: #aaa;
-	display: block;
-	padding: 10px;
-}
-
-ul{
-	margin: 0px auto 35px;
-	display: table;
-}
-
-li{
-	font-family: Helvetica, Arial,'Brandon';
-	list-style-type: none;
-	float: left;
-	padding: 10px 15px;
+body {
+	background: url(../img/f9o7u-cndjk-tony-webster.jpg) no-repeat bottom center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 a:link,
 a:visited,
 a:hover,
-a:active{
-	color: #222;
+a:active {
+	color: #333;
 	text-decoration: none;
 }
 
-#instafeed{
-	height: 275px;
-	width: 95%;
+.hero .img-all {
+	margin: 0 auto;
+	position: relative;
+	width: 160px;
+	height: 160px;
+}
+
+.hero .img-avatar,
+.hero .img-logo {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.hero .img-avatar {
+	width: 10em;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+
+.hero .img-logo {
+	width: 3em;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.hero h1 {
+	font-family: rubikregular, Helvetica, Arial;
+	font-size: 5vw;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+	padding: 20px 40px 0px;
+}
+
+.hero h3 {
+	font-family: rubikregular, Helvetica, Arial;
+	font-size: 1.1em;
+	font-weight: lighter;
+	color: #fff;
+	text-align: center;
+	padding: 10px 40px 70px;
+}
+
+.hero {
+	background-color: rgba(0,7,42,0.5);
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+.networks {
+	margin: 0px;
+	width: 100%;
+}
+
+.networks ul {
+	margin: 0px auto;
+	display: block;
 	overflow: hidden;
+	text-align: center;	
+}
+
+.networks li {
+	list-style-type: none;
+	padding: 10px 15px;
+	font-size: 0.6em;
+	display: inline-block;
+}
+
+.networks li a:link,
+.networks li a:visited,
+.networks li a:hover,
+.networks li a:active {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.bio {
+	background-color: rgba(255,255,255, 0.95);
+	margin: 0px;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	font-family: latoregular, Helvetica, Arial;
+	font-size: 0.9em;
+	color: #333;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 750px;
+	line-height: 150%;
+}
+
+.content ul {
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.content li {
+	padding: 10px 15px;
+}
+
+.content li a:link,
+.content li a:visited,
+.content li a:hover,
+.content li a:active {
+	color: #333;
+	text-decoration: none;
+}
+
+.content p {
+	padding: 5px;
 }
