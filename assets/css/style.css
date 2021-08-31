@@ -194,7 +194,7 @@ a:active {
 
 .tags {
 	display: flex;
-	flex-wrap: wrap;
+		flex-wrap: wrap;
 	justify-content: center;
 	margin: 0;
 	overflow: hidden; 
@@ -230,6 +230,40 @@ a:active {
 .tag:hover {
 	background-color: #333;
 	color: white;
+}
+
+#revue-embed {
+	text-align: center;
+	padding: 20px;
+}
+
+#revue-embed a {
+	color: #000;
+}
+
+.revue-title {
+	font-size: 20px;
+}
+
+.revue-form-group {
+	padding: 20px 20px 0px 20px;
+}
+
+#member_email,
+#member_submit {
+	padding: 5px;
+}
+
+.revue-form-footer {
+	font-size: 9px;
+	text-align: center;
+}
+
+.revue-form-footer a:link,
+.revue-form-footer a:visited,
+.revue-form-footer a:hover,
+.revue-form-footer a:active {
+	color: #333;
 }
 
 footer {
