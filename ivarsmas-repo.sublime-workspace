@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
 				"for",
-				"for	for …"
+				"for\tfor …"
 			],
 			[
 				"co",
@@ -118,10 +126,6 @@
 			[
 				"log",
 				"log_message"
-			],
-			[
-				"al",
-				"alert"
 			],
 			[
 				"str_re",
@@ -341,7 +345,7 @@
 			],
 			[
 				"fo",
-				"foreach	foreach …"
+				"foreach\tforeach …"
 			],
 			[
 				"aut",
@@ -395,31 +399,21 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3631,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 877,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/font-awesome/font-awesome.min.css",
-			"settings":
-			{
-				"buffer_size": 26807,
+				"buffer_size": 5939,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 367.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -439,7 +433,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -450,8 +447,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/ivarsmas/Sites/ivarsmas.github.io",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/contact"
+	],
 	"file_history":
 	[
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/assets/css/style.css",
+		"/Users/ivarsmas/Downloads/Best Growth Advertising Experts - experts.csv",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/contact/index.html",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/ivarsmas-repo.sublime-workspace",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/contact.html",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/index.html",
+		"/Users/ivarsmas/Sites/ivarsmas.github.io/assets/css/font-awesome/font-awesome.min.css",
+		"/Users/ivarsmas/Downloads/Gatets 2/manifest.json",
+		"/Users/ivarsmas/Downloads/https___www_producthunt_com_posts_captain_growth_for_facebook_ads.json",
+		"/Users/ivarsmas/Sites/test/video-email-embed-test.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/config/config.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/config/hooks.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/models/Mschools.php",
@@ -569,27 +581,18 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/Academy/assets/js/gitbook/app.js",
 		"/Applications/XAMPP/xamppfiles/htdocs/demo/gitbook/index.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/language/english/courses_lang.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/language/spanish/courses_lang.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/views/templates/plans_table.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/views/pages/vplans_enrolled.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/views/pages/vplans.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/language/spanish/plans_lang.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/language/english/plans_lang.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/libraries/My_Upload.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/logs/log-2016-05-09.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/views/pages/vvideos.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/models/Mplans.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/views/pages/vcourse_see.php"
+		"/Applications/XAMPP/xamppfiles/htdocs/Academy/application/language/spanish/courses_lang.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
+			"\t",
 			"-application/cache,-cache/,-data/,-application/logs,-user_guide,-*.map,-*.min.js,-*.dataTables.js,-*jquery.js,-*dropzone.js,-*searchindex.js,-*.mdA",
 			"-application/cache,-cache,-data/,-application/logs,-user_guide,-*.map,-*.min.js,-*.dataTables.js,-*jquery.js,-*dropzone.js,-*searchindex.js,-*.mdA",
 			"-application/cache,-cache,-data,-application/logs,-user_guide,-*.map,-*.min.js,-*.dataTables.js,-*jquery.js,-*dropzone.js,-*searchindex.js,-*.mdA",
@@ -616,6 +619,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",",
+			"a {",
+			"a ",
+			"a",
+			"strong",
+			"fbevents.js",
+			"  ",
+			"..",
+			"laun",
+			"tags",
+			"-webkit",
+			"-webtic",
+			"li",
+			"footer",
+			",",
+			", ",
+			" ,",
+			"Protection",
+			"<sheetProtection",
+			"<sheetProtection algorithmName",
+			"user-image",
+			"font",
+			"desc",
+			"tags",
+			", ",
 			"fa-4x",
 			"Brandon",
 			"hook",
@@ -718,32 +746,7 @@
 			"documento",
 			"documentos",
 			"Documents",
-			"documents",
-			"report",
-			"redir",
-			"contact_info",
-			"Para cualquier pregunta",
-			"site_title",
-			"MY_Controller",
-			"SYSTEM_NAME",
-			"enable_hooks",
-			"banner_news1.jpg",
-			"read-more_",
-			"read_more_",
-			"emailing_video.png",
-			"cabecera_emailing_logo_rovi.jpg",
-			"img/",
-			"cabecera_emailing_campus_rovi.jpg",
-			"banner_news1.jpg",
-			"cabecera_campus_rovi2.png",
-			"cabecera_campus_rovi.png",
-			"cabecera_",
-			"cabecera_campus",
-			"banner_news1.jpg",
-			"arbol.jpg",
-			"blank.gif",
-			"read-more_02.png",
-			"AcademyROVI.png"
+			"documents"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -751,6 +754,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			";",
+			"\n",
+			"</li>, <li>",
 			"fa-3x",
 			"[3]",
 			"[2]",
@@ -875,10 +881,7 @@
 			"documents_index_subtitle",
 			"documents_index_title",
 			"docuemnts_index_title",
-			"$this->types",
-			"vdocuments_add",
-			"../../img/wow_book/",
-			"../../img/"
+			"$this->types"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -895,81 +898,31 @@
 				{
 					"buffer": 0,
 					"file": "index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3631,
+						"buffer_size": 5939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2378,
-								2378
+								4826,
+								4826
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 528.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/css/style.css",
-					"settings":
-					{
-						"buffer_size": 877,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								605,
-								605
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 327.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/css/font-awesome/font-awesome.min.css",
-					"settings":
-					{
-						"buffer_size": 26807,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -977,11 +930,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -1010,14 +963,17 @@
 	{
 		"height": 112.0
 	},
+	"pinned_build_system": "",
+	"project": "ivarsmas-repo.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1026,15 +982,32 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 143.0,
-	"status_bar_visible": true
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
